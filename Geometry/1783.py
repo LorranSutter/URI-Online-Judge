@@ -9,11 +9,14 @@ def lineConstant(slope, x, y):
 def midPoint(x0, y0, x1, y1):
     return (x1+x0)/2, (y1+y0)/2
 
-
+# line intersection https://en.wikipedia.org/wiki/Line%E2%80%93line_intersection#Given_two_line_equations
 def lineIntesection(m1, m2, b1, b2):
     x = (b2-b1)/(m1-m2)
     y = m1*x+b1
     return x, y
+
+# desmos https://www.desmos.com/calculator
+
 
 # In this case we have infinity slope, which yields a zero division error
 # Must figure out other way to calculate that
