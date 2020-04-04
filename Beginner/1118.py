@@ -16,4 +16,9 @@ while new_calc != 2:
     soma = 0
     new_calc = 0
     while new_calc != 1 and new_calc != 2:
-        new_calc = int(input("novo calculo (1-sim 2-nao)"))
+        new_calc = input("novo calculo (1-sim 2-nao)")
+        try:
+            new_calc = int(new_calc)
+        except:
+            new_calc = int(float(new_calc))
+            continue
