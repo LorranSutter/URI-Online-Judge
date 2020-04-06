@@ -1,12 +1,18 @@
-#Sinceramente nao sei o que esta errado...
+while True:
+    try:
+        S = input()
+        res = ''
+        up = True
+        for k in S:
+            if k.isalpha():
+                if up:
+                    res += k.upper()
+                else:
+                    res += k.lower()
+                up = not up
+            else:
+                res += k
+        print(res)
 
-S = input()
-res = ''
-up = True
-for k in S:
-    if k != ' ':
-        if up: res += k.upper()
-        else:  res += k.lower()
-        up = not up
-    else: res += ' '
-print(res)
+    except:
+        break
