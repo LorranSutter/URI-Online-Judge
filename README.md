@@ -1,25 +1,10 @@
 # 🌐 URI Online Judge
 
-[![Dashboard](https://img.shields.io/badge/Dashboard-coding--challenges-blue)](https://github.com/LorranSutter/coding-challenges)
+[![Dashboard](https://img.shields.io/badge/Dashboard-coding--challenges-blue?style=for-the-badge)](https://github.com/LorranSutter/coding-challenges) <!-- SUMMARY:START -->[![Solved Challenges](https://img.shields.io/badge/Solved%20Challenges-356-brightgreen?style=for-the-badge&logo=python&logoColor=white)](https://www.beecrowd.com.br/)<!-- SUMMARY:END -->
 
 This repository contains my solutions for [URI Online Judge](https://www.beecrowd.com.br/) (beecrowd) problems.
 
 URI Online Judge is a platform featuring programming challenges of various domains and difficulties to improve algorithmic thinking and problem-solving skills.
-
-<!-- SUMMARY:START -->
-## 📊 Progress
-> **Overall: 356 problems solved**
-
-| Category | Solved |
-| :--- | :---: |
-| 🔰 Beginner | 200 |
-| ⚙️ Ad-Hoc | 54 |
-| 📐 Geometry | 5 |
-| 🔢 Mathematics | 20 |
-| 🗄️ SQL | 9 |
-| 🔤 Strings | 54 |
-| 🧱 Structures | 14 |
-<!-- SUMMARY:END -->
 
 ## 🛠️ Setup
 
